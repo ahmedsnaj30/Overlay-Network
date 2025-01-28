@@ -5,8 +5,8 @@ An overlay network enabling clients to register, connect, and communicate with e
 ```pip install argparse pycryptodome```
 
 (possibly need to do this)
-\n```sudo cp ca_cert.pem /usr/local/share/ca-certificates/```\n
-```sudo update-ca-certificates```\n
+```sudo cp ca_cert.pem /usr/local/share/ca-certificates/```
+```sudo update-ca-certificates```
 
 Created an encrypted overlay network and create clients that utilize this overlay network for discovery and communication with other connected clients.
 Uses a single network endpoint and multiple clients capable of connecting to this network. Clients should communicate with each other as long as they are on the same network.
